@@ -27,7 +27,7 @@ import javax.imageio.stream.ImageInputStream;
  *
  * @author Allexandre
  */
-@WebService(serviceName = "FlowerService")
+@WebService(serviceName = "FlowerService", wsdlLocation = "WEB-INF/wsdl/FlowerService.wsdl")
 @Stateless()
 public class FlowerService {
 
