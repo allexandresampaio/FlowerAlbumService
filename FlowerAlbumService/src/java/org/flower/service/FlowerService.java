@@ -33,13 +33,6 @@ public class FlowerService {
 
     private static final String[] FLOWERS = {"aster", "honeysuckle", "rose", "sunflower"};
 
-    /**
-     * This is a sample web service operation
-     */
-    @WebMethod(operationName = "hello")
-    public String hello(@WebParam(name = "name") String txt) {
-        return "Hello " + txt + " !";
-    }
 
     /**
      * Operação de Web service
